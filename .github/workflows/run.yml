@@ -5,7 +5,7 @@ on: workflow_dispatch
 jobs:
   update_heatmap:
     name: Update Heatmap
-    runs-on: ubuntu_latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
 
