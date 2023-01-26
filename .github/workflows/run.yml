@@ -24,8 +24,8 @@ jobs:
       
       - name: Commit and Push Changes
         run: |
-          git config --global user.name "${{ github.actor }}$"
-          git config --global user.email "$alive.vb.s2@gmail.com"
+          git config --global user.name "${{ github.actor }}"
+          git config --global user.email "alive.vb.s2@gmail.com"
           git add nikkei_chart.png heatmap.png
           git commit -m "Update on `date` with GitHub Actions"
           git push origin main
